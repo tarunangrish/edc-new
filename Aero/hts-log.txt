@@ -1,0 +1,20 @@
+HTTrack3.49-2 launched on Sun, 15 Jul 2018 14:23:39 at https://kpowers.se/demo/html/aero/bubbles/index.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/*
+(webhttrack -q -%i -w https://kpowers.se/demo/html/aero/bubbles/index.html -O "/Users/tarunangrish/websites/Aero" -n -%P -N0 -s2 -p7 -D -a -K0 -c4 -%k -A25000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+14:24:34	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://kpowers.se/demo/html/aero/bubbles/js/assets.min.js
+14:24:35	Error: 	"Not Found" (404) at link https://kpowers.se/demo/html/aero/bubbles/img/favicon.png (from https://kpowers.se/demo/html/aero/bubbles/index.html)
+14:24:57	Warning: 	HTML file (7193 bytes) retransferred due to lack of cache: https://kpowers.se/demo/html/aero/bubbles/single-video.html
+14:24:58	Warning: 	HTML file (8522 bytes) retransferred due to lack of cache: https://kpowers.se/demo/html/aero/bubbles/post-slideshow.html
+14:25:00	Warning: 	HTML file (8346 bytes) retransferred due to lack of cache: https://kpowers.se/demo/html/aero/bubbles/post-video.html
+14:25:01	Error: 	"Not Found" (404) at link https://kpowers.se/demo/html/aero/bubbles/css/owl.video.play.png (from https://kpowers.se/demo/html/aero/bubbles/css/assets.min.css)
+14:25:01	Warning: 	File not parsed, looks like binary: https://kpowers.se/demo/html/aero/bubbles/webfonts/fa-brands-400.woff2
+14:25:01	Warning: 	File not parsed, looks like binary: https://kpowers.se/demo/html/aero/bubbles/webfonts/fa-regular-400.woff2
+14:25:01	Warning: 	File not parsed, looks like binary: https://kpowers.se/demo/html/aero/bubbles/webfonts/fa-solid-900.woff2
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 22 seconds : 62 links scanned, 62 files written (12625577 bytes overall) [12041774 bytes received at 146850 bytes/sec], 813999 bytes transferred using HTTP compression in 17 files, ratio 24%, 5.0 requests per connection
+(2 errors, 7 warnings, 0 messages)
